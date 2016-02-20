@@ -1,0 +1,9 @@
+Package: AHIsmooth
+Version: 2016.02-0
+Title: SLP Time Smoothers for Estimation of the Air Health Indicator (AHI)
+Author: Wesley Burr <wesley.burr@gmail.com>
+Maintainer: Wesley Burr <wesley.burr@gmail.com>
+Depends: AHItools (>= 2016.02-0), slp (>= 1.0-3)
+Description: SLP time smoother objects to save computation time.
+License: GPL (>= 2)
+Packaged: 2016-02-19 16:58:00 EST; wburr

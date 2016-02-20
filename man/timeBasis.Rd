@@ -1,0 +1,94 @@
+\docType{data}
+\name{timeBasis}
+\alias{applicants}
+\alias{timeBasis_W_12_K_12_N_365}
+\alias{timeBasis_W_12_K_12_N_366}                    
+\alias{timeBasis_W_12_K_24_N_1826}                   
+\alias{timeBasis_W_12_K_24_N_1827}                   
+\alias{timeBasis_W_12_K_24_N_2556}                   
+\alias{timeBasis_W_12_K_24_N_8766}                   
+\alias{timeBasis_W_12_K_24_N_9497}                   
+\alias{timeBasis_W_12_K_26_N_1826}                   
+\alias{timeBasis_W_12_K_26_N_1827}                   
+\alias{timeBasis_W_12_K_26_N_2556}                   
+\alias{timeBasis_W_12_K_26_N_8766}                   
+\alias{timeBasis_W_12_K_26_N_9497}                   
+\alias{timeBasis_W_12_K_288_N_8766}
+\alias{timeBasis_W_12_K_312_N_9497}
+\alias{timeBasis_W_12_K_5_N_1826}
+\alias{timeBasis_W_12_K_5_N_1827}
+\alias{timeBasis_W_12_K_5_N_2556}
+\alias{timeBasis_W_12_K_5_N_8766}
+\alias{timeBasis_W_12_K_5_N_9497}
+\alias{timeBasis_W_12_K_7_N_1826}
+\alias{timeBasis_W_12_K_7_N_1827}
+\alias{timeBasis_W_12_K_7_N_2556}
+\alias{timeBasis_W_12_K_7_N_8766}
+\alias{timeBasis_W_12_K_7_N_9497}
+\alias{timeBasis_W_12_K_84_N_2556}
+\alias{timeBasis_W_12_K_84_N_2557}
+\alias{timeBasis_W_26_K_182_N_2556}
+\alias{timeBasis_W_26_K_182_N_2557}
+\alias{timeBasis_W_26_K_24_N_1826}
+\alias{timeBasis_W_26_K_24_N_1827}
+\alias{timeBasis_W_26_K_24_N_2556}
+\alias{timeBasis_W_26_K_24_N_8766}
+\alias{timeBasis_W_26_K_24_N_9497}
+\alias{timeBasis_W_26_K_26_N_1826}
+\alias{timeBasis_W_26_K_26_N_1827}
+\alias{timeBasis_W_26_K_26_N_2556}
+\alias{timeBasis_W_26_K_26_N_365}
+\alias{timeBasis_W_26_K_26_N_366}
+\alias{timeBasis_W_26_K_26_N_8766}
+\alias{timeBasis_W_26_K_26_N_9497}
+\alias{timeBasis_W_26_K_5_N_1826}
+\alias{timeBasis_W_26_K_5_N_1827}
+\alias{timeBasis_W_26_K_5_N_2556}
+\alias{timeBasis_W_26_K_5_N_8766}
+\alias{timeBasis_W_26_K_5_N_9497}
+\alias{timeBasis_W_26_K_676_N_9497}
+\alias{timeBasis_W_26_K_7_N_1826}
+\alias{timeBasis_W_26_K_7_N_1827}
+\alias{timeBasis_W_26_K_7_N_2556}
+\alias{timeBasis_W_26_K_7_N_8766}
+\alias{timeBasis_W_26_K_7_N_9497}
+\alias{timeBasis_W_6_K_144_N_8766}
+\alias{timeBasis_W_6_K_156_N_9497}
+\alias{timeBasis_W_6_K_24_N_1826}
+\alias{timeBasis_W_6_K_24_N_1827}
+\alias{timeBasis_W_6_K_24_N_2556}
+\alias{timeBasis_W_6_K_24_N_8766}
+\alias{timeBasis_W_6_K_24_N_9497}
+\alias{timeBasis_W_6_K_26_N_1826}
+\alias{timeBasis_W_6_K_26_N_1827}
+\alias{timeBasis_W_6_K_26_N_2556}
+\alias{timeBasis_W_6_K_26_N_8766}
+\alias{timeBasis_W_6_K_26_N_9497}
+\alias{timeBasis_W_6_K_42_N_2556}
+\alias{timeBasis_W_6_K_42_N_2557}
+\alias{timeBasis_W_6_K_5_N_1826}
+\alias{timeBasis_W_6_K_5_N_1827}
+\alias{timeBasis_W_6_K_5_N_2556}
+\alias{timeBasis_W_6_K_5_N_8766}
+\alias{timeBasis_W_6_K_5_N_9497}
+\alias{timeBasis_W_6_K_6_N_365}
+\alias{timeBasis_W_6_K_6_N_366}
+\alias{timeBasis_W_6_K_7_N_1826}
+\alias{timeBasis_W_6_K_7_N_1827}
+\alias{timeBasis_W_6_K_7_N_2556}
+\alias{timeBasis_W_6_K_7_N_8766}
+\alias{timeBasis_W_6_K_7_N_9497}
+\title{timeBasis_}
+\format{A basis matrix data frame of class \code{slp} of dimension \code{N} by \code{K},
+    for use in estimation of population health risk GAMs.}
+\usage{
+    timeBasis
+}
+\description{
+    All objects in this package have the same namespace-object-name, that is,
+    \code{timeBasis}. They are intended to be loaded and then used in a GAM
+    framework for estimation of population health risk. Note that many of these
+    basis sets (in particular, for \code{N > 1000}) can take significant amounts
+    of time to compute.
+}
+\keyword{datasets}
